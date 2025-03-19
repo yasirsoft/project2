@@ -1,0 +1,99 @@
+@media (max-width: 991.98px) {
+    #nav ul li a {
+        display: inline-block;
+    }
+
+
+/* <!-- =============== BANNER START ======================= --> */
+    #hero {
+        padding: 10px 0;
+        text-align: center;
+    }
+    
+    #hero h1{
+        font-size: 50px;
+    }
+    #hero .icons a:first-child{
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+    #hero .icons a:last-child{
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+    .follow-container span{
+       font-size: 20px;
+       padding-right: 10px;
+    
+    }
+    .mouse{
+        display: none;
+    }
+    /* <!-- =============== BANNER END ======================= --> */
+
+
+    /* =============== ABOUT START ====================*/
+    #about .container{
+        padding: 0 30px;
+     }
+     #about .container .about-footer{
+       position: absolute;
+       right: 0;
+       top: 0;
+     }
+     #about .container .about-footer img {
+       transform: rotate(180deg);
+       height: 90px;
+    
+     }
+     /* =============== ABOUT END ======================*/
+
+
+     /* =============== ADD START ====================*/
+     #add .add_cart {
+        width: 90%;
+        margin-bottom: 20px;
+      }
+      /* =============== ADD END ======================*/
+
+      /* =============== Branding START ======================*/
+      #branding .row{
+        position: relative;
+      }
+      #branding .img-fluid{
+        position:unset;
+      }
+      #branding .branding_contains{
+        padding: 30px;
+      }
+      #branding .branding_contains p br{
+        display: none;
+      }
+     
+      #branding .container{
+        position: relative;
+      } 
+      /* =============== Branding END ======================*/ 
+       /* ===============  PROJECT CSS START  =============== */
+  #project{
+    padding: 50px 0;
+  }
+  #project .container{
+    padding: 0 30px;
+  }
+  #project .project_second h3{
+    text-align: center;
+  }
+  #project .project_second p{
+    text-align: center;
+  }
+  #project .row .col-6 h3{
+    text-align: center; 
+  }
+  #project .row .col-6 p{
+    text-align: center; 
+  }
+  /* ================ PROJECT CSS END  ================ */
+  
+
+}
